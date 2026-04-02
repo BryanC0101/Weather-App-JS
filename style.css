@@ -1,0 +1,61 @@
+body {
+    background: rgb(141, 215, 247);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background: linear-gradient(90deg, #07aeea 0.000%, #2bf598 100.000%);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 240px; */
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weather-input {
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+}
+
+#weather-button {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#weather-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#weather-results h1 {
+    font-size: 40px;
+}
+
+#weather-results p {
+    font-size: 60px;
+}
