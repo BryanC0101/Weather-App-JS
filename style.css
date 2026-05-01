@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/cat.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#inputArea {
+    background: rgb(220, 220, 220);
+    color: rgb(24, 24, 24);
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-bottom: 3px solid white;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.cityStateBox {
+    display: flex;
+}
+
+.date {
+    display: flex;
+    font-weight: 500;
+    gap:5px;
+}
+
+#number {
+    font-size: 120px;
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.6);
+    margin: 0;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#tempState {
+    font-size: 30px;
+    font-style: italic;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.minMax {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
